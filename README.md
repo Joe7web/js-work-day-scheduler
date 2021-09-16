@@ -8,9 +8,7 @@ You'll need to use the [Moment.js](https://momentjs.com/) library to work with d
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
 
-   //The current day is to be displayed under ".lead" formatted as Thursday, September 16th using moment .js
-
-
+  //DONE //The current day is to be displayed under  formatted as Thursday, September 16th using moment .js
 
 
 
@@ -18,6 +16,15 @@ THEN the current day is displayed at the top of the calendar
 
 WHEN I scroll down
 THEN I am presented with timeblocks for standard business hours
+//create dayplanner type time block with sections for hours from  9-5.
+
+
+
+
+
+
+
+
 
 
 WHEN I view the timeblocks for that day
