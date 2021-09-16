@@ -3,12 +3,18 @@
 You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
 
 
-GIVEN I am using a daily planner to create a schedule
+
 
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
 
-//The 
+   //The current day is to be displayed under ".lead" formatted as Thursday, September 16th using moment .js
+
+
+
+
+
+
 
 WHEN I scroll down
 THEN I am presented with timeblocks for standard business hours
