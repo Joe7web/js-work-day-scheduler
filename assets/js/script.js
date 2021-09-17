@@ -3,15 +3,15 @@
 var today = moment();
 $("#currentDay").text(today.format("dddd, MMMM Do"));
 
-var container = $('.container')
+//var container = $('.container')
 
 
 
-var timeblock = $('div')
+//var timeblock = $('div')
 
-var time = $('span')
-var textInput = $('input')
-var saveButton = $('button')
+//var time = $('span')
+//var textInput = $('input')
+//var saveButton = $('button')
 
 
 
