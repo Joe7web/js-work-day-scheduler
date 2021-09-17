@@ -70,3 +70,11 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
+#info-area,
+#time-area
+{
+  border: 2px solid black;
+ 
+  
+
+}
