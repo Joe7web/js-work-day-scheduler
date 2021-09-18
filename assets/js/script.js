@@ -1,10 +1,11 @@
 
-
+//using moment.js to get current date
 var today = moment();
 $("#currentDay").text(today.format("dddd, MMMM Do"));
 
 
 
+// connecting button to save to local storage
 var saveButton = document.querySelector("button");
 
 saveButton.addEventListener("click",function(event) {
@@ -18,9 +19,6 @@ saveButton.addEventListener("click",function(event) {
 });
 
 
-// var saveTextInput = document.querySelector("info-area").value
-// console.log(saveTextInput);
-// localStorage.setItem("text","notes");
 
 
 
@@ -29,9 +27,3 @@ saveButton.addEventListener("click",function(event) {
 
 
 
-
-//var container = $('.container')
-//var timeblock = $('div')
-
-//var time = $('span')
-//var textInput = $('input')

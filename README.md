@@ -1,70 +1,22 @@
 git # js-work-day-scheduler
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+## Work Day Schedular Application
+
+
+I created a Code-Quiz that allows entry-level developers to test their knowledge of coding.  An exciting game that displays multiple choice questions while racing against a timer.
+The game start once the start button is clicked - the timer will start and the first question appears.  5 multiple choice questions and tracking of your high score.
 
 
 
 
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
+![screenshot](assets/images/screenshot-code quiz.png)
 
-  --DONE --The current day is to be displayed in #currentDay.
-           -- Date is to be formatted as "Thursday, September 16th" using moment .js
+https://joe7web.github.io/js-code-quiz/
 
+I primarily used the dynamic function of JavaScript to enhance the HTML and CSS elements for the application.  At this time there are still bugs and incomplete code which will be corrected and updated in the future.
 
-
-
+I was fortunate to have some assistance from Frank Craven my tutor and David the Learning Assistant.  
 
 
 
 
-
-
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
- 
-
- --Done   --Create dayplanner type time block with sections for hours from  9-5   using  bootstrap or jquery (?).
-
-
-
-
-
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-
-    --?? -connect each hour-block to current time?, 
-        --when that time occurs -the correct block will change from green to the color red. 
-           --When that hour is over - that block will change to grey.  
-             --Future hour blocks of time will show green until that hour that hour occurs. 
-                --And past hours will be grey.
-
-
-
--- DONE -- WHEN I click into a timeblock
-THEN I can enter an event
-
-   -- When a user clicks any time block - the user can type info into   that block.
-
-
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-
- -- At the end of row of time block - there will be a block to click 
-   -- Clicked block will save day, time, and event typed into local storage
-
-
-WHEN I refresh the page
-THEN the saved events persist
-```
-   -- If page refreshed. The saved events will be still be stored on work day schedular.
-
-
-
-
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
