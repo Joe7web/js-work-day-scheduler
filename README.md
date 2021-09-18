@@ -1,21 +1,25 @@
 git # js-work-day-scheduler
 
-## Work Day Schedular Application
+## Work Day Scheduler 
 
 
-I created a Code-Quiz that allows entry-level developers to test their knowledge of coding.  An exciting game that displays multiple choice questions while racing against a timer.
-The game start once the start button is clicked - the timer will start and the first question appears.  5 multiple choice questions and tracking of your high score.
-
+I created a Work Day Scheduler application to assist the user with planning their workday around a standard 9-5 schedule. The user will see the current day at the top of app and have the ability to add scheduled events into the textbox to organize the user's day. These events will be stored in local storage for future needs.  The time blocks will change color based on grey for past hours, red for current hour, and green for future hours. These color changes will happen automatically through out the day.  There are still bugs and features needing to be programmed at this time.
 
 
 
-![screenshot](assets/images/screenshot-code quiz.png)
+![screenshot](assets/images/screenshot-workday.png)
 
-https://joe7web.github.io/js-code-quiz/
+https://github.com/Joe7web/js-work-day-scheduler
 
-I primarily used the dynamic function of JavaScript to enhance the HTML and CSS elements for the application.  At this time there are still bugs and incomplete code which will be corrected and updated in the future.
+Technologies used in this application:
+- HTML
+- CSS
+- JavaScript
+- jQuery
+- Bootstrap
+- Moment.js
 
-I was fortunate to have some assistance from Frank Craven my tutor and David the Learning Assistant.  
+ 
 
 
 
