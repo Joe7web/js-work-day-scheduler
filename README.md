@@ -24,7 +24,7 @@ WHEN I scroll down
 THEN I am presented with timeblocks for standard business hours
  
 
-    --Create dayplanner type time block with sections for hours from  9-5   using  bootstrap or jquery (?).
+ --Done   --Create dayplanner type time block with sections for hours from  9-5   using  bootstrap or jquery (?).
 
 
 
@@ -41,7 +41,7 @@ THEN each timeblock is color coded to indicate whether it is in the past, presen
 
 
 
-WHEN I click into a timeblock
+-- DONE -- WHEN I click into a timeblock
 THEN I can enter an event
 
    -- When a user clicks any time block - the user can type info into   that block.
