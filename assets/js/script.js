@@ -5,12 +5,17 @@ $("#currentDay").text(today.format("dddd, MMMM Do"));
 
 
 
-// var saveButton = document.querySelector(".button")
+var saveButton = document.querySelector("button");
 
-// saveButton.addEventListener("click",function(event) {
-//     event.preventDefault();
-// };
-// console.log("hello")
+saveButton.addEventListener("click",function(event) {
+    event.preventDefault();
+    console.log("hello")
+
+    var saveTextInput = document.querySelector(".info-area").value
+    console.log(saveTextInput);
+    localStorage.setItem("test","saveTextInput");
+
+});
 
 
 // var saveTextInput = document.querySelector("info-area").value
